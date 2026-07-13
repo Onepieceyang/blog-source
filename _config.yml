@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: Yang
+subtitle: '后端工程师 · 做金融后台系统'
+description: 'Yang 的个人博客 — 后端工程师，做金融后台系统'
+keywords: 后端,金融系统,分布式
+author: Yang
+language: zh-CN
 timezone: ''
 
 # URL
