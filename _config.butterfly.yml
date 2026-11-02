@@ -1,0 +1,61 @@
+# Butterfly theme config (overrides node_modules/hexo-theme-butterfly/_config.yml)
+
+nav:
+  logo:
+  display_title: true
+  fixed: false
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  关于我: /about/ || fas fa-user
+
+social:
+  fab fa-github: https://github.com/Onepieceyang || Github
+  fas fa-envelope: mailto:mark13612911661@163.com || Email
+
+index_img:
+default_top_img: false
+
+inject:
+  head:
+    - <style type="text/css">body{background:linear-gradient(180deg,#0a0e27 0%,#141a3d 45%,#2b1a4e 100%)!important;background-attachment:fixed!important}#page-header{background:transparent!important;background-image:none!important;box-shadow:none!important}#page-header:before{display:none!important}#page-header.full_page{height:60vh!important}.layout>div:first-child:not(.recent-post-item),#article-container,#page{background:rgba(255,255,255,.92)!important;border-radius:8px!important}.recent-post-item{background:rgba(255,255,255,.92)!important}#aside-content .card-widget{background:rgba(255,255,255,.92)!important}#footer{background:transparent!important}#footer-inner{color:#cfd3ff!important}#footer a{color:#9fb1ff!important}#pagination .page-number,#pagination .current{background:rgba(255,255,255,.92)!important}</style>
+  bottom:
+    - <script src="/js/starfield.js" defer></script>
+
+avatar:
+  img: /img/avatar.svg
+  effect: false
+
+aside:
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description:
+      <div>后端工程师 · 富途</div>
+      <div>金融账务系统 · 数据工程</div>
+  card_announcement:
+    enable: false
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_categories:
+    enable: false
+  card_tags:
+    enable: true
+    limit: 20
+    color: false
+  card_archives:
+    enable: false
+  card_webinfo:
+    enable: false
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text:

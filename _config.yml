@@ -4,10 +4,10 @@
 
 # Site
 title: Yang
-subtitle: '后端工程师 · 做金融后台系统'
-description: 'Yang 的个人博客 — 后端工程师，做金融后台系统'
-keywords: 后端,金融系统,分布式
-author: Yang
+subtitle: '后端工程师 · 金融账务系统 · 数据工程'
+description: '郭洋 / Yang 的个人博客 — 富途后端工程师，做证券计费计息与资产系统，关注资金安全、分布式账务一致性、数据可观测性'
+keywords: 后端,金融系统,分布式,计费,计息,数据工程,可观测性
+author: 郭洋
 language: zh-CN
 timezone: ''
 
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
