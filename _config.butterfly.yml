@@ -20,8 +20,10 @@ default_top_img: false
 inject:
   head:
     - <style type="text/css">body{background:linear-gradient(180deg,#0a0e27 0%,#141a3d 45%,#2b1a4e 100%)!important;background-attachment:fixed!important}#page-header{background:transparent!important;background-image:none!important;box-shadow:none!important}#page-header:before{display:none!important}#page-header.full_page{height:60vh!important}.layout>div:first-child:not(.recent-post-item),#article-container,#page{background:rgba(255,255,255,.92)!important;border-radius:8px!important}.recent-post-item{background:rgba(255,255,255,.92)!important}#aside-content .card-widget{background:rgba(255,255,255,.92)!important}#footer{background:transparent!important}#footer-inner{color:#cfd3ff!important}#footer a{color:#9fb1ff!important}#pagination .page-number,#pagination .current{background:rgba(255,255,255,.92)!important}</style>
+    - <style type="text/css">.card-post-calendar{margin-bottom:16px;padding:16px 18px;box-sizing:border-box}.card-post-calendar .item-headline{display:flex;align-items:center;gap:8px;font-weight:600;margin-bottom:10px}.pc-title{text-align:center;font-weight:600;color:#333;margin-bottom:8px}.pc-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}.pc-cell{display:flex;align-items:center;justify-content:center;height:28px;font-size:13px;border-radius:6px;color:#555}.pc-week{color:#999;font-size:12px;font-weight:600}.pc-has{background:rgba(74,144,217,.15);color:#3a7bc0;font-weight:600;text-decoration:none}.pc-has:hover{background:rgba(74,144,217,.3)}.pc-today{border:1px solid #3a7bc0}</style>
   bottom:
     - <script src="/js/starfield.js" defer></script>
+    - <script src="/js/post-calendar.js" defer></script>
 
 avatar:
   img: /img/avatar.svg
